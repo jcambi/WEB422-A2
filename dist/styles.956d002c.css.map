@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles/styles.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"styles.956d002c.css","sourceRoot":"..\\src","sourcesContent":["#employee-search {\n  margin-bottom: 5px;\n  margin-left: 5%;\n  width: 90%;\n}\n\n.outer-container {\n  padding: 30px;\n}\n"]}

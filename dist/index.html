@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Load Bootstrap's CSS from the node_modules/ dir. Run `npm install` first -->
+    <link rel="stylesheet" href="/bootstrap.min.c9ac70f5.css">
+    <!-- Helper styles for the Bootstrap table header -->
+    <link rel="stylesheet" href="/bootstrap-header-table.b3c0af95.css">
+    <!-- Your styles can go in src/styles/styles.css -->
+    <link rel="stylesheet" href="/styles.956d002c.css">
+
+    <title>WEB422 - Assignment 2</title>
+  <script src="/bootstrap.min.c9ac70f5.js"></script><script src="/bootstrap-header-table.b3c0af95.js"></script><script src="/styles.956d002c.js"></script></head>
+  <body>
+    <!-- 
+
+      Please see the Assignment 2 PDF and README.md
+
+      All your HTML can go here.
+
+    -->
+
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Assignment 2 - Employee Details</a>
+        </div>
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <input type="text" class="form-control" id="employee-search" placeholder="Search for Employees">
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- 3 Columns -->
+
+      <div class="container bootstrap-header-table">
+        <div class="row header-row">
+          <div>
+            <div class="col-md-4 header-column">First Name</div>
+            <div class="col-md-4 header-column">Last Name</div>
+            <div class="col-md-4 header-column">Position</div>
+          </div>
+        </div>
+        <div class="row body-rows" id="employees-table"></div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="genericModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title"></h4>
+          </div>
+          <div class="modal-body"></div>
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+    <!-- Include our bundle. Run `npm run parcel` to build the bundle -->
+    <script src="/src.e31bb0bc.js"></script>
+  </body>
+</html>
